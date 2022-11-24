@@ -6,6 +6,7 @@ but.addEventListener("click", () => {
             new Notification("example", {
                 body: "this is the body of notification",
                 // tag: "welcome message",
+                vibrate: [200, 100, 200]
             })
             console.log("ol");
         } else {
